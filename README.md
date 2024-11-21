@@ -1,0 +1,1 @@
+# Integrate-Solr-with-FastAPi
