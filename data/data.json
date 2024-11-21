@@ -1,0 +1,29 @@
+[
+    {
+      "id": "1",
+      "title": "Python Programming",
+      "content": "Python is a great programming language for web development, data analysis, and automation."
+    },
+    {
+      "id": "2",
+      "title": "Solr Search Engine",
+      "content": "Solr is an open-source search platform for building search applications."
+    },
+    {
+      "id": "3",
+      "title": "FastAPI and Solr Integration",
+      "content": "FastAPI can be used to create APIs that connect to Solr and perform full-text searches."
+    },
+    {
+      "id": "4",
+      "title": "Python for Data Science",
+      "content": "Python offers robust libraries such as NumPy, pandas, and Matplotlib for data manipulation, analysis, and visualization."
+    },
+    {
+      "id": "5",
+      "title": "Django Web Framework",
+      "content": "Django is a high-level Python framework that encourages rapid development and clean, pragmatic design."
+    }
+  ]
+  
+  
