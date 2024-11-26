@@ -4,6 +4,8 @@ import pysolr
 
 app = FastAPI()
 
+# color: #007bff;
+
 # Solr connection URL
 solr_url = 'http://localhost:8983/solr/search_core'
 solr = pysolr.Solr(solr_url)
@@ -134,6 +136,10 @@ async def search(
                     background-color: #f8f9fa;
                     color: #333;
                 }}
+                em {{
+                color: #006400;
+                font-weight: bolder;
+                }}
                 .container {{
                     max-width: 800px;
                     margin: 2rem auto;
@@ -159,7 +165,6 @@ async def search(
                     border-bottom: none;
                 }}
                 .result-item strong {{
-                    color: #007bff;
                     font-size: 1.2rem;
                 }}
                 a {{
@@ -242,3 +247,10 @@ async def search(
 # curl "http://localhost:8983/solr/search_core/update?commit=true" -d @data/data.json -H "Content-Type: application/json"
 # curl "http://localhost:8983/solr/search_core/select?q=Python"
 # curl "http://localhost:8983/solr/search_core/update?commit=true" -d '<delete><query>*:*</query></delete>'
+
+
+
+
+
+
+
